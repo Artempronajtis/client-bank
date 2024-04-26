@@ -1,4 +1,4 @@
-package DataGenerator;
+package dataGenerator;
 
 import com.github.javafaker.Faker;
 import io.restassured.builder.RequestSpecBuilder;

@@ -4,10 +4,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static DataGenerator.DataGenerator.Registration.getRegisteredUser;
-import static DataGenerator.DataGenerator.Registration.getUser;
-import static DataGenerator.DataGenerator.getRandomLogin;
-import static DataGenerator.DataGenerator.getRandomPassword;
+import static dataGenerator.DataGenerator.Registration.getRegisteredUser;
+import static dataGenerator.DataGenerator.Registration.getUser;
+import static dataGenerator.DataGenerator.getRandomLogin;
+import static dataGenerator.DataGenerator.getRandomPassword;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
